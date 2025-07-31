@@ -1,0 +1,9 @@
+{
+  "name": "Catazet - Virtual Assistant Hiring Platform",
+  "description": "A platform to connect with and hire highly skilled virtual assistants from the Philippines, India, and Nigeria, tailored to your business needs. Catazet offers a range of services from administrative support to tech and data analysis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "prompt": ""
+}
