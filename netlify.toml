@@ -1,0 +1,16 @@
+# This file configures the deployment on Netlify.
+# It ensures that TypeScript (.ts) and TSX (.tsx) files,
+# which are used directly as ES modules in this build-less setup,
+# are served with the correct JavaScript MIME type.
+# Without this, browsers would treat them as plain text and fail to execute them,
+# resulting in a blank page.
+
+[[headers]]
+  for = "/*.ts"
+  [headers.values]
+    Content-Type = "application/javascript"
+
+[[headers]]
+  for = "/*.tsx"
+  [headers.values]
+    Content-Type = "application/javascript"
